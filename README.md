@@ -7,16 +7,26 @@ Projet réalisé dans le cadre du stage de Master 1 EEA à l'ISTIC - Université
 - Assemblage de la BrailleRap XL
 - Validation expérimentale sur banc de test
 - Optimisation des paramètres de déplacement
-- Conception d'un chargeur automatique de feuilles
-- Développement de la commande Arduino
-- Intégration d'un capteur de détection de feuille
+- Développement d'un chargeur automatique de feuilles
 
-## Auteur
+## Système développé
 
-Abed El Majid NOHMAN
+Le chargeur automatique est constitué :
 
-## Encadrement
+- d'une carte Arduino ;
+- d'un moteur pas à pas 28BYJ-48 ;
+- d'un driver ULN2003 ;
+- d'un capteur infrarouge de détection ;
+- d'un bouton poussoir ;
+- d'un rouleau d'entraînement imprimé en 3D ;
+- de poulies imprimées en 3D ;
+- d'un support en bois découpé au laser ;
+- de quatre ressorts assurant la compensation de hauteur de la pile de feuilles.
 
-- Camille Bisson
-- Stéphane Godin
-- François Le Berre
+## Fonctionnement
+
+1. L'utilisateur appuie sur le bouton.
+2. Le moteur entraîne le rouleau.
+3. La feuille avance vers la BrailleRap XL.
+4. Le capteur détecte l'arrivée de la feuille.
+5. L'Arduino arrête automatiquement le moteur.
