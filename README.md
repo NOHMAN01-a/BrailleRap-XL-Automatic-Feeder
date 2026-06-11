@@ -4,7 +4,7 @@ Projet réalisé dans le cadre du stage de Master 1 EEA à l'ISTIC - Université
 
 ## Travaux réalisés
 
-- Assemblage de la BrailleRap XL
+- Assemblage de la BrailleRap L
 - Validation expérimentale sur banc de test
 - Optimisation des paramètres de déplacement
 - Développement d'un chargeur automatique de feuilles
@@ -27,6 +27,6 @@ Le chargeur automatique est constitué :
 
 1. L'utilisateur appuie sur le bouton.
 2. Le moteur entraîne le rouleau.
-3. La feuille avance vers la BrailleRap XL.
+3. La feuille avance vers la BrailleRap L.
 4. Le capteur détecte l'arrivée de la feuille.
 5. L'Arduino arrête automatiquement le moteur.
