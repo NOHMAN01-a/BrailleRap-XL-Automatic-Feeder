@@ -1,6 +1,6 @@
 # BrailleRap XL Automatic Feeder
 
-Projet réalisé dans le cadre du stage de Master 1 EEA à l'ISTIC - Université de Rennes.
+Projet réalisé dans le cadre du stage de Master EEA à l'ISTIC - Université de Rennes.
 
 ## Travaux réalisés
 
